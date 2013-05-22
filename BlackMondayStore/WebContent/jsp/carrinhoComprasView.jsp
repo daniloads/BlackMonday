@@ -44,8 +44,8 @@
 	<table style="width: 70%" border='1'>
 		<tr>
 			<td align='right' colspan='7' class='tituloform'>
-			<a href='listaPromocao.jsp'>Continuar compras</a>
-			<a href='listaPromocao.jsp'> 
+			<a href="javascript: history.back();">Continuar compras</a>
+			<a href="javascript: history.back();"> 
 			<img src='../imagens/carrinho.jpg'/>
 			</a></td>
 		</tr>
@@ -88,7 +88,7 @@
 		</tr>
 		<tr>
 			<td align='right' colspan='7' class='tituloform'><a
-				HREF='<%=contexto%>/jsp/finalizaCompra'>Finalizar
+				HREF='<%=contexto%>/jsp/finalizaCompraView.jsp'>Finalizar
 					Compra </a></td>
 		</tr>
 	</table>
