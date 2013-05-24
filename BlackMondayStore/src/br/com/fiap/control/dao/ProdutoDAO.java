@@ -12,7 +12,7 @@ import br.com.fiap.util.BlackMondayException;
 
 public class ProdutoDAO extends Dao {
 	
-    private final String INSERT_QUERY = "insert into blackmonday.cliente (login, nome, descricao, imagem, categoria, preco, promocao) values (?,?,?,?,?,?,?)";
+    private final String INSERT_QUERY = "insert into blackmonday.produto (codigo, nome, descricao, imagem, categoria, preco, promocao) values (?,?,?,?,?,?,?)";
     private final String SELECT_ALL_QUERY = "select * from blackmonday.produto";
     private final String SELECT_BY_ID_QUERY = "select * from blackmonday.produto where id = ? ";
     private final String SELECT_PROMOCAO_QUERY = "select * from blackmonday.produto where promocao = ?";

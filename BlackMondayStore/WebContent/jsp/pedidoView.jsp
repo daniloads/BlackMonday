@@ -149,7 +149,7 @@
             </TR>
             <tr>
 			<td align='right' colspan='7' class='tituloform'><a
-				HREF='/jsp/iniciaProcesso'>Fim</a></td>
+				HREF='/BlackMondayStore/jsp/iniciaProcesso'>Fim</a></td>
 		</tr>
         </TABLE>
 

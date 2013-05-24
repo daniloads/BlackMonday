@@ -5,12 +5,34 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style type="text/css">
+.barNav a {
+	font: 12px Arial, Verdana, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	background: black;
+	text-align: center;
+	padding: 1px 5px;
+	margin-right: 1px;
+	border: 1px solid #000;
+}
+
+.barNav a:hover {
+	color: #666;
+	background: white;
+	border: 1px solid #666;
+}
+</style>
 <link href='../loja.css' rel='stylesheet' type='text/css'></link>
 <title>BlackMondayStore - Cadastra Produtos</title>
 </head>
 <body>
 	<img SRC='../imagens/Black-Monday.jpg'
 		style="height: 74px; width: 765px" />
+	<p class="barNav">
+		<a href="listaPromocao.jsp">Lista Promoção</a> <a
+			href="menuUsuario.jsp">Area Restrita</a>
+	</p>
 	<h1>Cadastro de Produtos</h1>
 	
 	<jsp:useBean id="produtos" class="br.com.fiap.beans.Produto" />
@@ -23,7 +45,6 @@
     <jsp:setProperty property="promocao" name="produtos" value="${param.promocao }" />
     
 	<jsp:getProperty property="cadastro" name="produtos" />
-
-
+	
 </body>
 </html>

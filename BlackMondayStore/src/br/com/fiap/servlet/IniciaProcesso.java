@@ -23,7 +23,7 @@ public class IniciaProcesso extends HttpServlet {
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		doPost(request,response);
 	}
 
 
@@ -31,7 +31,7 @@ public class IniciaProcesso extends HttpServlet {
 	       
 	        HttpSession session = request.getSession();
         	session.setAttribute("carrinhoCompras", null);
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/listaPromocao.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/listaProdutos.jsp");
             dispatcher.forward(request, response);
 	}
 

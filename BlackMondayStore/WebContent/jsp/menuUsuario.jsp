@@ -30,7 +30,7 @@
 	<h1>Menu de Opções</h1>
 	<p class="barNav">
 		<br><a href="cadastraProduto.jsp">Cadastra Produto</a></br>
-		<br><a href="listaPromocao.jsp">Lista Clientes</a></br>
+		<br><a href="listaPromocao.jsp">Lista Apenas Promoções</a></br>
 		<br><a href="listaProdutos.jsp">Lista Todos os Produtos</a></br>
 	</p>
 </body>
